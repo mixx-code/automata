@@ -1,0 +1,143 @@
+body{
+    background: #BCE2F2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+}
+.container{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content:center;
+
+}
+.pilih{
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    height: 700px;
+    background: rgba(46, 46, 46, 0.658);
+    border-top-left-radius: 10px;
+
+}
+
+.buah{
+    display: flex;
+    width: 350px;
+    background: white;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    height: 100px;
+    margin-top: 50px;
+
+}
+.cup{
+    display: flex;
+    width: 350px;
+    background: white;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    height: 100px;
+    margin-top: 50px;
+
+}
+.kemanisan{
+    display: flex;
+    width: 350px;
+    background: white;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    height: 100px;
+    margin-top: 50px;
+
+}
+.button{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+#pesan{
+    margin-top: 20px;
+    width: 350px;
+    height: 40px;
+    border-radius: 10px;
+    background: greenyellow;
+}
+#totalHarga{
+    margin-top: 20px;
+    width: 350px;
+    height: 40px;
+    text-align: center;
+    color: blue;
+    border-radius: 10px;
+    border: none;
+}
+.pembayaran{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 400px;
+    height: 700px;
+    background: rgba(15, 117, 70, 0.658);
+    border-top-right-radius: 10px;
+}
+.bayar{
+    display: flex;
+    width: 350px;
+    background: white;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    height: 100px;
+    margin-top: 50px;
+}
+.struk{
+    display: flex;
+    width: 350px;
+    background: white;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    height: 300px;
+    margin-top: 50px;
+}
+#struk{
+    background: rgba(233, 229, 229, 0.527);
+    width: 344px;
+    height: 240px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+#kembalian{
+    margin-top: 20px;
+    width: 350px;
+    height: 40px;
+    text-align: center;
+    color: blue;
+    border-radius: 10px;
+    border: none;
+    background: rgba(233, 229, 229, 0.527);
+}
+.kembalian{
+    display: flex;
+    width: 350px;
+    background: white;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    height: 120px;
+    margin-top: 20px;
+
+}
+.jus-keluar{
+    display: flex;
+    width: 800px;
+    align-items: center;
+    justify-content:center;
+    background: rgb(36, 35, 35);
+    height: 225px;
+}
