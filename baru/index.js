@@ -12,6 +12,7 @@ let btn50000 = document.getElementById("50000")
 let btn100000 = document.getElementById("100000")
 let struk = document.getElementById("struk")
 let uangKembalian = document.getElementById("kembalian")
+let gambarKeluar = document.getElementById("gambar")
 //buah
 let mangga = ""
 let apel = ""
@@ -134,6 +135,27 @@ btnPesan.addEventListener('click', () =>{
 const refresh = () => {
     setInterval(function () {location.reload()}, 5000);
 }
+
+const imgMangga = () => {
+    return`
+    <img class="gambarBuah" src="./asset/img/jus-mangga.png" alt="" srcset="">
+    `
+}
+
+
+const imgApel = () => {
+    return`
+    <img class="gambarBuah" src="./asset/img/jus-apel.png" alt="" srcset="">
+    `
+}
+
+const imgAlpukat = () => {
+    return`
+    <img class="gambarBuah" src="./asset/img/jus-alpukat.png" alt="" srcset="">
+    `
+}
+
+
 btn50000.addEventListener('click', ()=> {
     let kembalian = 50000 - totalHarga.value
     struk.value = `uang yang dimasukkan Rp.50.000
@@ -142,6 +164,16 @@ Kembalian = Rp.${kembalian}`
 uangKembalian.value = `Rp.${kembalian}`
 btn100000.disabled = true;
 alert('mohon tunggu sebentar')
+
+if(mangga == "mangga"){
+    gambarKeluar.innerHTML += imgMangga()
+}else if(apel == "apel"){
+    gambarKeluar.innerHTML += imgApel()
+}else{
+    gambarKeluar.innerHTML += imgAlpukat()
+}
+
+
 refresh()
 })
 btn100000.addEventListener('click', ()=> {
@@ -152,5 +184,14 @@ Kembalian = Rp.${kembalian}`
 uangKembalian.value = `Rp.${kembalian}`
 btn50000.disabled = true;
 alert('mohon tunggu sebentar')
+
+if(mangga == "mangga"){
+    gambarKeluar.innerHTML += imgMangga()
+}else if(apel == "apel"){
+    gambarKeluar.innerHTML += imgApel()
+}else{
+    gambarKeluar.innerHTML += imgAlpukat()
+}
+
 refresh()
 })

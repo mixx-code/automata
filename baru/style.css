@@ -138,6 +138,14 @@ body{
     width: 800px;
     align-items: center;
     justify-content:center;
+    flex-direction: column;
     background: rgb(36, 35, 35);
     height: 225px;
+}
+.ambil{
+    color: #fff;
+}
+.gambarBuah{
+    width: 200px;
+    height: 200px;
 }
